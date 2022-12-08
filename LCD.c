@@ -52,6 +52,7 @@ void LCD_Init(void){
    _delay_ms(30);
    LCD_Comm(0x06);
    _delay_ms(2);
+   LCD_Clear();
 }
 
 void LCD_Pos(unsigned char x, unsigned char y){
