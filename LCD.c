@@ -1,8 +1,9 @@
 #include <avr/io.h>
 #include <util/atomic.h>
 #include <avr/interrupt.h>
+#include <util/delay.h>
 
-#include "LCD.h"
+#include "lcd.h"
 
 #define LCD_WDATA PORTD
 #define LCD_WINST PORTD
