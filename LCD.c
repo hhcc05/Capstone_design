@@ -68,3 +68,8 @@ void LCD_STR(unsigned char *str){
       str++;
    }
 }
+
+void LCD_Clear(void){
+    LCD_Comm(0x01);
+    _delay_ms(2);
+}
